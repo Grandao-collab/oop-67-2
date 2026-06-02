@@ -46,3 +46,7 @@ feat/creat_order
 -m "feat: register added file service register.py link"
 -m "fix: register added file service register.py link"
 -m "update: register added file service register.py link"
+
+git resore
+git reserve
+git reset --mixed HEAD-1
