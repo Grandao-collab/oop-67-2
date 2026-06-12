@@ -1,6 +1,5 @@
 import time
 
-# 📌 Задание 1 — Проверка администратора
 class User:
     def __init__(self, name, role):
         self.name = name
@@ -20,8 +19,6 @@ def is_admin(func):
 def delete_video(user):
     print("Видео удалено")
 
-
-# 📌 Задание 2 — Декоратор таймера
 def timer(func):
     def wrapper(*args, **kwargs):
         start = time.time()
@@ -37,8 +34,6 @@ def download_video():
     time.sleep(2)
     print("Видео загружено")
 
-
-# 📌 Пример использования
 if __name__ == "__main__":
     # Проверка администратора
     admin = User("King", "admin")
