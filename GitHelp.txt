@@ -1,6 +1,6 @@
 Команды для регистрации ваших данных
 git config --global user.name "Your name"
-git config --global user.email "your-email@example.com"
+git config --global user.email "arystanbekovtilek6@gmail.com"
 
 
 Команды только для одно проекта
